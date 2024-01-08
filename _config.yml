@@ -10,7 +10,8 @@ permalink:        pretty
 title:            Ji-Eun Byun
 tagline:          'DeUS'
 description:      'Decision-making under uncertainty on complex systems'
-url:              /
+domain:           jieunbyun.github.io
+url:              https://jieunbyun.github.io
 baseurl:          /
 
 author:
