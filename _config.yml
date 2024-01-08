@@ -11,8 +11,8 @@ title:            Ji-Eun Byun
 tagline:          'DeUS'
 description:      'Decision-making under uncertainty on complex systems'
 domain:           jieunbyun.github.io
-url:              ''
-baseurl:          ''
+url:              
+baseurl:          
 
 author:
   name:           'Ji-Eun Byun'
