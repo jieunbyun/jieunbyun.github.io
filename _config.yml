@@ -19,9 +19,6 @@ author:
 
 #paginate:         5
 
-# Custom vars
-github:
-#  repo:           https://github.com/poole/hyde
 
 
 # Paginate for jekyll v3.0
