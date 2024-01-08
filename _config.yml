@@ -1,0 +1,38 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+# Setup
+title:            Ji-Eun Byun
+tagline:          'DeUS'
+description:      'Decision-making under uncertainty on complex systems'
+url:              /
+baseurl:          /
+
+author:
+  name:           'Ji-Eun Byun'
+
+#paginate:         5
+
+# Custom vars
+github:
+#  repo:           https://github.com/poole/hyde
+
+
+# Paginate for jekyll v3.0
+pagination:
+  enabled: true
+  debug: false
+  collections: 'posts'
+  per_page: 5
+  permalink: '/page/:num/'
+
+# Plugins
+plugins: 
+  - jekyll-paginate-v2
+  - jekyll-gist
+
