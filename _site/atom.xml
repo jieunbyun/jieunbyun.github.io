@@ -4,7 +4,7 @@
  <title>Ji-Eun Byun</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-01-22T18:59:27+00:00</updated>
+ <updated>2024-01-22T19:01:10+00:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ji-Eun Byun</name>
@@ -33,7 +33,7 @@ In a BN graph, random variables are represented by circular nodes, and their dep
 &lt;figcaption align=&quot;left&quot;&gt; Fig 1. An example BN: a system subjected to hazard risks. &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Once a BN graph is set up, each node is assigned a conditional probability on their parent nodes. For instance, the BN in Fig. 1 has \(P(H)\), \(P(X_1 \left. \right\vert H),\cdots,P(X_N \left. \right\vert H)\), and \(P(S \left. \right\vert X_1, \cdots, X_N)\).&lt;/p&gt;
+&lt;p&gt;Once a BN graph is set up, each node is assigned a conditional probability on their parent nodes. For instance, the BN in Fig. 1 has $P(H)$, \(P(X_1 \left. \right\vert H),\cdots,P(X_N \left. \right\vert H)\), and \(P(S \left. \right\vert X_1, \cdots, X_N)\).&lt;/p&gt;
 
 &lt;p&gt;Then, the joint probability represented by the BN is simply the product of all these variables, i.e.
 \(P(S,X_1, \cdots, X_N,H)=P(S \left. \right\vert X_1, \cdots, X_N)\cdot P(X_1 \left. \right\vert H)\cdot \cdots \cdot P(X_N \left. \right\vert H)\cdot P(H).\)&lt;/p&gt;
