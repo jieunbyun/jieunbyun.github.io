@@ -4,7 +4,7 @@
  <title>Ji-Eun Byun</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-01-22T18:36:46+00:00</updated>
+ <updated>2024-01-22T18:50:28+00:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ji-Eun Byun</name>
@@ -13,7 +13,7 @@
 
  
  <entry>
-   <title>1. What and why mbnpy?</title>
+   <title>What and why mbnpy?</title>
    <link href="http://localhost:4000/2024/01/22/1_whats_mbn.html"/>
    <updated>2024-01-22T00:00:00+00:00</updated>
    <id>http://localhost:4000/2024/01/22/1_whats_mbn</id>
@@ -62,7 +62,7 @@ In a BN graph, random variables are represented by circular nodes, and their dep
 &lt;p&gt;For example, the leftmost branch at the top refers to that given \(X_8 = 0\) (abbreviated as \(x_8^0\)), the system fails (i.e. \(s^0\)). In other words, \(P(s^0 \left. \right\vert x_8^0) = 1\) and \(P(s^1 \left. \right\vert x_8^0) = 0\), regardless of other components’ states. Note that this single branch alone represents \(2^7=128\) instances (over \(X_1,\cdots,X_7\)).&lt;/p&gt;
 
 &lt;figure&gt;
-&lt;img src=&quot;/assets/img/rbd_bnb.png&quot; style=&quot;width:500px&quot; /&gt;
+&lt;img src=&quot;/assets/img/rbd_bnb.PNG&quot; style=&quot;width:500px&quot; /&gt;
 &lt;figcaption align=&quot;left&quot;&gt; Fig 3. Branch and bound on the RBD of Fig 2. &lt;/figcaption&gt;
 &lt;/figure&gt;
 
