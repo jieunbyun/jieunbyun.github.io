@@ -18,10 +18,12 @@
     {% if page.usemathjax %}
       <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
-        TeX: { equationNumbers: { autoNumber: "AMS" } }
+        TeX: { equationNumbers: { autoNumber: "AMS" } },
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['\\(','\\)'], ['$', '$']]
         });
       </script>
-      <script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     {% endif %}
 
   <!-- CSS -->
