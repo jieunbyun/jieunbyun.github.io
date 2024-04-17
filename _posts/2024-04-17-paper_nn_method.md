@@ -24,7 +24,7 @@ As engineers, we thought computational simulation tool could be a solution.
 
 We picked up a controversial topic, **anti-price-gouging laws**, whose legitimacy has been heatedly debated (a good summary is available in *Justice* by Michael Sandel). Anti-price-gouging laws have been introduced in multiple countries to prevent sellers from raising prices higher than what is considered reasonable. <br>
 
-All arguments for and against the laws seem legitimate and aim for the same goal to expedite recovery with least impacts on affected people: <br>
+**All arguments for and against the laws seem legitimate and aim for the same goal** to expedite recovery with least impacts on affected people: <br>
 * Arguments favouring the laws include 
     * Increased prices exacerbate already affected people.
     * A price cap suppresses price-gouging behaviours.
@@ -35,7 +35,7 @@ All arguments for and against the laws seem legitimate and aim for the same goal
     * A price cap creates random distribution of resources, rather than by the urgency of needs.
 
 We wondered how these make-sense forces interact with each other to determine our objectives: (i) minimise deficiency of basic goods, (ii) minimise repair duration of damaged buildings, and (iii) minimise disruptions on living standards. <br>
-For investigation, we set up a probabilistic model that simulates a post-earthquake situation including (i) building damage, (ii) affected demands and supplies, and (iii) hoarding and donation. We applied the model to San Francisco, CA, USA.
+For investigation, **we set up a probabilistic model that simulates a post-earthquake situation** including (i) building damage, (ii) affected demands and supplies, and (iii) hoarding and donation. We applied the model to San Francisco, CA, USA.
 
 ## Findings
 
@@ -56,7 +56,7 @@ We highlight three interesting observations:
 
 # A new way of having social discourse? *Narrative numeric method*
 
-Motivated by the findings, we propose the narrative numeric method for transdisciplinary discourses with two purposes: (i) facilitate drawing an agreeable compromise rather than identifying the most truthful argument, (ii) facilitate iterations of discourses with more arguments added, and (iii) facilitate integration of narrative and numeric analyses. The procedure is summarised below (Table 2 in Byun and Yi (2024)):
+Motivated by the findings, we propose the narrative numeric method for transdisciplinary discourses with three purposes: (i) facilitate drawing an agreeable compromise rather than identifying the most truthful argument, (ii) facilitate iterations of discourses with more arguments added, and (iii) facilitate integration of narrative and numeric analyses. The procedure is summarised below (Table 2 in Byun and Yi (2024)):
 
 | Step |       Narrative analysis     | Numerical analysis      |
 |------|------------------------------|-------------------------|
