@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Proposal of how-to transdisciplinary discourses
+title: [New Paper] Proposal of a a transdisciplinary discourse method
 usemathjax: true
-tags: [ourPaper]
+tags: [publication]
 ---
 
 **Ref:** Byun, J. E. & Yi, S. R. (2024). Anti-price-gouging law is neither good nor bad in itself: a proposal of narrative numeric method for transdisciplinary social discourses. *npj Natural Hazards*, 1(1), 4. <br>
