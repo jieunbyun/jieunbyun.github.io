@@ -4,13 +4,145 @@
  <title>Ji-Eun Byun</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2024-04-13T15:48:18+01:00</updated>
+ <updated>2024-06-22T14:24:55+01:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Ji-Eun Byun</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>Proposal of a new transdisciplinary discourse method</title>
+   <link href="http://localhost:4000/2024/04/17/paper_nn_method.html"/>
+   <updated>2024-04-17T00:00:00+01:00</updated>
+   <id>http://localhost:4000/2024/04/17/paper_nn_method</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;Ref:&lt;/strong&gt; Byun, J. E. &amp;amp; Yi, S. R. (2024). Anti-price-gouging law is neither good nor bad in itself: a proposal of narrative numeric method for transdisciplinary social discourses. &lt;em&gt;npj Natural Hazards&lt;/em&gt;, 1(1), 4. &lt;br /&gt;
+doi: &lt;a href=&quot;https://doi.org/10.1038/s44304-024-00005-y&quot;&gt;https://doi.org/10.1038/s44304-024-00005-y&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;motivation&quot;&gt;Motivation&lt;/h1&gt;
+
+&lt;h2 id=&quot;difficulty-in-interdisciplinary-discourses&quot;&gt;Difficulty in interdisciplinary discourses&lt;/h2&gt;
+&lt;p&gt;It has been long recognised that interdisciplinary efforts are mandatory to tackle the most difficult topics of our society. Such joint efforts however remain challenging as modern disciplines have increasingly become sophisticated, obscuring cross-discipline discussions. Discussions become even more complicated when emotional campaigns are involved, which is often the case. &lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;re-thinking-about-the-purpose-of-debates&quot;&gt;Re-thinking about the purpose of debates&lt;/h2&gt;
+&lt;p&gt;Reading insightful references on classic social debates (e.g. &lt;em&gt;The righteous mind&lt;/em&gt; by Jonathan Haidt and &lt;em&gt;Justice&lt;/em&gt; by Michael Sandel), we’ve come to the conclusion that &lt;strong&gt;there is no universal truth, and a debate should aim to draw a an agreeable compromise to (hopefully) all stakeholder groups.&lt;/strong&gt; This requires &lt;strong&gt;weighing conflicting forces between counterarguments,&lt;/strong&gt; which we believe are all bound to be true. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;As engineers, we thought computational simulation tool could be a solution.&lt;/p&gt;
+
+&lt;h1 id=&quot;investigation-of-effectiveness-of-anti-price-gouging-laws&quot;&gt;Investigation of effectiveness of &lt;em&gt;anti-price-gouging laws&lt;/em&gt;&lt;/h1&gt;
+
+&lt;h2 id=&quot;investigation&quot;&gt;Investigation&lt;/h2&gt;
+
+&lt;p&gt;We picked up a controversial topic, &lt;strong&gt;anti-price-gouging laws&lt;/strong&gt;, whose legitimacy has been heatedly debated (a good summary is available in &lt;em&gt;Justice&lt;/em&gt; by Michael Sandel). Anti-price-gouging laws have been introduced in multiple countries to prevent sellers from raising prices higher than what is considered reasonable. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;All arguments for and against the laws seem legitimate and aim for the same goal&lt;/strong&gt; to expedite recovery with least impacts on affected people: &lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Arguments favouring the laws include
+    &lt;ul&gt;
+      &lt;li&gt;Increased prices exacerbate already affected people.&lt;/li&gt;
+      &lt;li&gt;A price cap suppresses price-gouging behaviours.&lt;/li&gt;
+      &lt;li&gt;Presence of the laws shows the authorities’ support for social justice and thereby promotes just behaviours.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Arguments against the laws include
+    &lt;ul&gt;
+      &lt;li&gt;A price cap hampers recovery of damaged supply lines.&lt;/li&gt;
+      &lt;li&gt;A price cap incurs hoarding behaviours.&lt;/li&gt;
+      &lt;li&gt;A price cap creates random distribution of resources, rather than by the urgency of needs.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We wondered how these make-sense forces interact with each other to determine our objectives: (i) minimise deficiency of basic goods, (ii) minimise repair duration of damaged buildings, and (iii) minimise disruptions on living standards. &lt;br /&gt;
+For investigation, &lt;strong&gt;we set up a probabilistic model that simulates a post-earthquake situation&lt;/strong&gt; including (i) building damage, (ii) affected demands and supplies, and (iii) hoarding and donation. We applied the model to San Francisco, CA, USA.&lt;/p&gt;
+
+&lt;h2 id=&quot;findings&quot;&gt;Findings&lt;/h2&gt;
+
+&lt;p&gt;We highlight three interesting observations:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;The worst-hit households are not much affected by the level of price cap (Fig 1). This implies that they need a different support scheme.&lt;/li&gt;
+  &lt;li&gt;The optimal level of a price cap is different depending on a decision objective (Left-hand side of Fig 2).&lt;/li&gt;
+  &lt;li&gt;Even a very low level of donation is significant in expediting repair durations (Right-hand side of Fig 2). This also implies that influences of the analysed arguments depend on local conditions.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/assets/img/nn_paper_graph1.png&quot; style=&quot;width:350px&quot; /&gt;
+&lt;figcaption align=&quot;left&quot;&gt; Fig 1. Shortage in basic goods and repair period of 5% worst-hit households (Fig 1(c) in Byun and Yi (2024)) &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+&lt;img src=&quot;/assets/img/nn_paper_graph2.png&quot; style=&quot;width:800px&quot; /&gt;
+&lt;figcaption align=&quot;left&quot;&gt; Fig 2. The same graphs for all households (Fig 1(a) in Byun and Yi (2024)) and for all households with donation and hoarding considered (Fig 2(a)) &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;a-new-way-of-having-social-discourse-narrative-numeric-method&quot;&gt;A new way of having social discourse? &lt;em&gt;Narrative numeric method&lt;/em&gt;&lt;/h1&gt;
+
+&lt;p&gt;Motivated by the findings, we propose the narrative numeric method for transdisciplinary discourses with three purposes: (i) facilitate drawing an agreeable compromise rather than identifying the most truthful argument, (ii) facilitate iterations of discourses with more arguments added, and (iii) facilitate integration of narrative and numeric analyses. The procedure is summarised below (Table 2 in Byun and Yi (2024)):&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Step&lt;/th&gt;
+      &lt;th&gt;Narrative analysis&lt;/th&gt;
+      &lt;th&gt;Numerical analysis&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;Identify decision objectives&lt;/td&gt;
+      &lt;td&gt;Define decision metrics&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;Collect candidate arguments&lt;/td&gt;
+      &lt;td&gt;Define decision scenarios or decision variables&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;Identify conflicting forces&lt;/td&gt;
+      &lt;td&gt;Build a probabilistic model with multiple forces&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;Reflect local conditions&lt;/td&gt;
+      &lt;td&gt;Decide model parameters&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;Present evidential data&lt;/td&gt;
+      &lt;td&gt;Decide/update the model or its parameters&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;Collect narrations of people&lt;/td&gt;
+      &lt;td&gt;Map narrations to probability distributions of decision metrics&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;Decide acceptable social phenomena&lt;/td&gt;
+      &lt;td&gt;Decide acceptable values of decision metrics&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;Draw an agreement&lt;/td&gt;
+      &lt;td&gt;Select decision scenarios or a value of decision variables&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;remaining-challenges&quot;&gt;Remaining challenges&lt;/h1&gt;
+
+&lt;p&gt;We made a wild attempt to test our idea for genuinely transdisciplinary discourses. We still find too many challenges, for example,&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;what is the relationship between social solidarity and social behaviours such as price gouging, donation, and hoarding? Are they wildly different between communities?; and&lt;/li&gt;
+  &lt;li&gt;how should narratives be collected to define an acceptable level of decision metrics?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We hope this is just the beginning of our journey and have more colleagues to collaborate with. We sheepishly admit that the economic and social models in our simulation model are by our self-study…!&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>What and why mbnpy?</title>
