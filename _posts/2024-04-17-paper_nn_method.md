@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [New Paper] Proposal of a a transdisciplinary discourse method
+title: Proposal of a new transdisciplinary discourse method
 usemathjax: true
 tags: [publication]
 ---

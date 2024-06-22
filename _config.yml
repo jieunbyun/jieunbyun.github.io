@@ -10,7 +10,7 @@ highlighter:      rouge
 # Setup
 title:            Ji-Eun Byun
 tagline:          'DeUS'
-description:      'Decision-making under uncertainty on large-scale systems'
+description:      'Decision-making under uncertainty on complex systems'
 domain:           jieunbyun.github.io
 url:              https://jieunbyun.github.io/
 baseurl:          

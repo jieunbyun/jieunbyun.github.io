@@ -21,3 +21,11 @@ pagination:
 <p><em>Example systems:</em> infrastructure networks, structural systems, and socio-economic systems.<br> 
   <em>Example methods:</em> Bayesian network, reliability methods, and machine learning. </p>
 
+<h2>Recent posts</h2>
+<ul>
+  {% for post in site.posts limit:5 %}
+    <li>
+      <a href="{{post.url}}">{{post.title}}</a>- {{ post.date | date: "%B %d, %Y" }}
+    </li>
+  {% endfor %}
+</ul>
